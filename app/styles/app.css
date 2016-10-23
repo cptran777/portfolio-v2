@@ -32,27 +32,28 @@ html, body {
 	z-index: 2;
 	/* top: 0;
 	left: 0; */
-	background-color: #444;
+	background-color: #696969;
 	overflow-x: hidden; /* Disables horizontal scroll */
 	padding-top: 60px;
 	transition: 0.5s; 
 }
 
 .open {
-	width: 250px;
+	width: 200px;
 }
 
 .pushed {
-	margin-left: 250px;
+	margin-left: 200px;
 }
 
 .sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #818181;
+	color: #313131;
 	display: block;
 	transition: 0.3s;
+	border-bottom: 1px solid #555;
 }
 
 .sidenav a:hover, offcanvas a:focus {
@@ -72,3 +73,39 @@ html, body {
 		font-size: 18px;
 	}
 }
+
+/****************** TOP BANNER STYLING *********************/
+
+#top-banner {
+	height: 20%;
+	border-bottom: 12px solid #fcde39;
+	background-color: #fce7a2;
+}
+
+.profile {
+	height: 100%;
+	width: 200px;
+	border-right: 3px ridge #ccccc5;
+	border-left: 3px ridge #ccccc5;
+}
+
+#profilepic {
+	height: 100%;
+	width: 100%;
+}
+
+#title {
+	font-family: Impact, Charcoal, sans-serif;
+	text-decoration: underline;
+}
+
+/***************** MAIN WINDOW STYLING *********************/
+
+#main .heading {
+	text-decoration: underline;
+}
+
+
+
+
+

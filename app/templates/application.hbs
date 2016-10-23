@@ -1,7 +1,12 @@
 <div id="app-container" class="container-fluid">
 	<div id="top-banner" class="row">
-		<h1 id="title">Charlie Tran</h1>
-		<h3 id="subtitle">Software Engineer</h3>
+		<div class="profile col-sm-1">
+			<img id="profilepic" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAeVAAAAJGIxZjk2YjE3LTdiOTQtNDI2NC1hZDg3LWVkZDE4ZTFiMjE4OQ.jpg" />
+		</div>
+		<div class="col-sm-9">
+			<h1 id="title">C h a r l i e . T r a n</h1>
+			<h3 id="subtitle">Software Engineer</h3>		
+		</div>
 	</div>
 	<div id="app-body" class="row">
 		<div id="navbar" class="sidenav col-sm-3 {{if isOpen 'open'}}" {{action "toggleBar" on="mouseEnter"}} {{action "toggleBar" on="mouseLeave"}}>
@@ -10,7 +15,6 @@
 		</div>
 
 		<div id="main" class="col-sm-9">
-			<h1>Testing body and stuffs</h1>
 			{{outlet}}
 		</div>
 	</div>
