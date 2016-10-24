@@ -146,6 +146,31 @@ html, body {
 	text-align: center;
 }
 
+/******************* SUMMARY STYLING ***********************/
+
+.skill-row {
+	margin-bottom: 3%;
+}
+
+.icons {
+	text-align: center;
+}
+
+.skill-icon {
+	height: 35%;
+	width: 35%;
+}
+
+#redux-icon {
+	height: 100%;
+	width: 85%;
+}
+
+#react-native-icon {
+	height: 100%;
+	width: 55%;
+}
+
 
 
 
