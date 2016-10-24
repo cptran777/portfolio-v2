@@ -196,15 +196,20 @@ html, body {
 	width: 55%;
 }
 
+.project-row {
+	height: 150px;
+}
+
 .project-block {
 	background-color: #b288e8;
 	border-radius: 20px;
 	padding: 1% 1% 0 1%;
 	text-align: center;
+	height: 100%;
 }
 
 .project-image {
-	height: 70%;
+	height: 100px;
 	width: 70%;
 	border-radius: 5px;
 }
