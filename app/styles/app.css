@@ -69,15 +69,6 @@ html, body {
 	width: 87%;
 }
 
-@media screen and (max-height: 450px) {
-	.sidenav {
-		padding-top: 15px;
-	}
-	.sidenav a {
-		font-size: 18px;
-	}
-}
-
 /****************** TOP BANNER STYLING *********************/
 
 #top-banner {
@@ -224,3 +215,19 @@ html, body {
 	width: 90%;
 }
 
+/******************** MOBILE STYLING ***********************/
+
+@media screen and (max-height: 450px) {
+	#title {
+		font-size: 14px;
+	}
+	#subtitle {
+		font-size: 10px;
+	}
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
