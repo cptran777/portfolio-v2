@@ -101,10 +101,18 @@ html, body {
 
 /***************** MAIN WINDOW STYLING *********************/
 
-#main .heading {
-	text-decoration: underline;
+#main {
+
 }
 
+#main .heading {
+	text-decoration: underline;
+	text-align: center;
+}
+
+#main .content {
+	text-align: center;
+}
 
 
 
