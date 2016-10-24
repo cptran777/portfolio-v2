@@ -196,5 +196,26 @@ html, body {
 	width: 55%;
 }
 
+.project-block {
+	background-color: #b288e8;
+	border-radius: 20px;
+	padding: 1% 1% 0 1%;
+	text-align: center;
+}
 
+.project-image {
+	height: 70%;
+	width: 70%;
+	border-radius: 5px;
+}
+
+.project-content {
+	color: white;
+}
+
+.other-project-image {
+	border-radius: 25px;
+	height: 55%;
+	width: 90%;
+}
 
