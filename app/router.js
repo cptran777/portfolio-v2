@@ -14,6 +14,8 @@ Router.map(function() {
     this.route('syrup');
     this.route('music');
     this.route('recast');
+    this.route('twitchvr');
+    this.route('pocketmondex');
   });
   this.route('interests');
 });
