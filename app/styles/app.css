@@ -106,6 +106,14 @@ html, body {
 	text-decoration: underline;
 }
 
+#top-banner a {
+	color: white;
+}
+
+#top-banner a:hover {
+	color: #ccc;
+}
+
 /***************** MAIN WINDOW STYLING *********************/
 
 #app-body {
