@@ -11,12 +11,8 @@ Router.map(function() {
     this.route('avalon');
     this.route('reeltime');
     this.route('labit');
-    this.route('syrup');
-    this.route('music');
-    this.route('recast');
-    this.route('twitchvr');
-    this.route('pocketmondex');
     this.route('other');
+    this.route('inprogress');
   });
   this.route('interests');
 });

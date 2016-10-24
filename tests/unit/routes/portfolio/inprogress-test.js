@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:portfolio/twitchvr', 'Unit | Route | portfolio/twitchvr', {
+moduleFor('route:portfolio/inprogress', 'Unit | Route | portfolio/inprogress', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
