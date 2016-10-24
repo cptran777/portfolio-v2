@@ -16,6 +16,7 @@ Router.map(function() {
     this.route('recast');
     this.route('twitchvr');
     this.route('pocketmondex');
+    this.route('other');
   });
   this.route('interests');
 });
