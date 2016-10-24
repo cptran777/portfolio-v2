@@ -21,7 +21,7 @@
 		</div>
 	</div>
 	<div id="app-body" class="">
-		<div id="navbar" class="sidenav col-sm-3 {{if isOpen 'open'}}" {{action "toggleBar" on="mouseEnter"}} {{action "toggleBar" on="mouseLeave"}}>
+		<div id="navbar" class="sidenav col-sm-3 {{if isOpen 'open'}}" {{action "toggleBarOn" on="mouseEnter"}} {{action "toggleBarOff" on="mouseLeave"}} {{action "toggleBar" on="click"}}>
 			{{#link-to 'index' class='nav-button'}}Home{{/link-to}}
 			{{#link-to 'portfolio' class='nav-button'}}Portfolio{{/link-to}}
 			{{#link-to 'interests' class='nav-button'}}Interests{{/link-to}}
