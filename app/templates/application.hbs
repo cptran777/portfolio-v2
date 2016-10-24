@@ -8,13 +8,13 @@
 			<h3 id="subtitle">Software Engineer</h3>		
 		</div>
 	</div>
-	<div id="app-body" class="row">
+	<div id="app-body" class="">
 		<div id="navbar" class="sidenav col-sm-3 {{if isOpen 'open'}}" {{action "toggleBar" on="mouseEnter"}} {{action "toggleBar" on="mouseLeave"}}>
 			{{#link-to 'portfolio' class='nav-button'}}Portfolio{{/link-to}}
 			{{#link-to 'interests' class='nav-button'}}Interests{{/link-to}}
 		</div>
 
-		<div id="main" class="col-sm-9">
+		<div id="main" class="{{if isOpen 'col-sm-9 pushed' 'col-sm-9 notpushed'}}">
 			{{outlet}}
 		</div>
 	</div>
