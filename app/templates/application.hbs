@@ -1,6 +1,6 @@
-<div id="app-container" class="container-fluid">
+<div id="app-container" class="container-fluid" style="padding-left: 0; padding: right: 0">
 	<div id="top-banner" class="row">
-		<div class="profile col-sm-1">
+		<div class="profile col-sm-2">
 			<img id="profilepic" src="assets/images/Profile.jpg" />
 		</div>
 		<div class="col-sm-9">
@@ -20,14 +20,14 @@
 			</div>
 		</div>
 	</div>
-	<div id="app-body" class="">
-		<div id="navbar" class="sidenav col-sm-3 {{if isOpen 'open'}}" {{action "toggleBarOn" on="mouseEnter"}} {{action "toggleBarOff" on="mouseLeave"}} {{action "toggleBar" on="click"}}>
+	<div id="app-body" class="row">
+		<div id="navbar" class="sidenav {{if isOpen 'col-sm-2' 'col-sm-1'}}" {{action "toggleBarOn" on="mouseEnter"}} {{action "toggleBarOff" on="mouseLeave"}} {{action "toggleBar" on="click"}}>
 			{{#link-to 'index' class='nav-button'}}Home{{/link-to}}
 			{{#link-to 'portfolio' class='nav-button'}}Portfolio{{/link-to}}
 			{{#link-to 'interests' class='nav-button'}}Interests{{/link-to}}
 		</div>
 
-		<div id="main" class="{{if isOpen 'col-sm-9 pushed' 'col-sm-9 notpushed'}}">
+		<div id="main" class="{{if isOpen 'col-sm-10' 'col-sm-11'}}">
 			{{outlet}}
 		</div>
 	</div>
