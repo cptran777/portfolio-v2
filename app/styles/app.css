@@ -222,6 +222,19 @@ html, body {
 	margin-bottom: 2%;
 }
 
+/******************* INTERESTS STYLING **********************/
+
+.song-button {
+	border-radius: 20px;
+	margin-bottom: 1%;
+	background: rgba(200, 50, 50, 0.75);
+	color: white;
+}
+
+.song-button:hover {
+	background: rgba(147, 32, 35, 0.80);
+}
+
 /******************** MOBILE STYLING ***********************/
 
 @media screen and (max-height: 450px) {
