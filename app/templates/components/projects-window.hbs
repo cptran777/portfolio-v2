@@ -1,56 +1,40 @@
 <div class="row project-row">
 	{{#link-to 'portfolio.avalon' class='col-xs-4 col-md-2 col-xs-offset-2 col-md-offset-1 project-block'}}
-		<div class="row">
-			<img src="/assets/images/Avalon.png" class="project-image"/>
-		</div>
-		<div class="row project-content">
-			Avalon	
-		</div>
+		<img src="/assets/images/Avalon.png" class="project-image"/>
+		<p class="project-content">Avalon</p>
 	{{/link-to}}
 	{{#link-to 'portfolio.reeltime' class='col-xs-4 col-md-2 col-xs-offset-2 col-md-offset-2 project-block'}}
-		<div class="row">
-			<img src="/assets/images/ReelTime.png" class="project-image"/>
-		</div>
-		<div class="row project-content">
-			Reel Time
-		</div>
+		<img src="/assets/images/ReelTime.png" class="project-image"/>
+		<p class="project-content">Reel Time</p>
 	{{/link-to}}
 	{{#link-to 'portfolio.labit' class='col-xs-4 col-md-2 col-xs-offset-2 col-md-offset-2 project-block'}}
-		<div class="row">
-			<img src="/assets/images/Labit.png" class="project-image"/>
-		</div>
-		<div class="row project-content">
-			Laugh About It
-		</div>
+		<img src="/assets/images/Labit.png" class="project-image"/>
+		<p class="project-content">Laugh About It</p>
 	{{/link-to}}
 </div>
 <div class="row project-row">
 	<h4 class="heading">Other</h4>
-	<div class="row">
-		{{#link-to 'portfolio.other' class='col-xs-2 col-xs-offset-3'}}
-			<img src="/assets/images/Syrup.png" class="other-project-image"/>
-		{{/link-to}}
-		{{#link-to 'portfolio.other' class='col-xs-2'}}
-			<img src="/assets/images/Music.png" class="other-project-image"/>
-		{{/link-to}}
-		{{#link-to 'portfolio.other' class='col-xs-2'}}
-			<img src="/assets/images/Recast.png" class="other-project-image"/>
-		{{/link-to}}
-	</div>
+	{{#link-to 'portfolio.other' class='col-xs-2 col-xs-offset-3'}}
+		<img src="/assets/images/Syrup.png" class="other-project-image"/>
+	{{/link-to}}
+	{{#link-to 'portfolio.other' class='col-xs-2'}}
+		<img src="/assets/images/Music.png" class="other-project-image"/>
+	{{/link-to}}
+	{{#link-to 'portfolio.other' class='col-xs-2'}}
+		<img src="/assets/images/Recast.png" class="other-project-image"/>
+	{{/link-to}}
 </div>
 <div class="row project-row">
 	<h4 class="heading">In - Progress</h4>
-	<div class="row">
-		{{#link-to 'portfolio.inprogress' class='col-xs-2 col-xs-offset-3'}}
-			<img src="/assets/images/Smite.png" class="other-project-image"/>
-		{{/link-to}}
-		{{#link-to 'portfolio.inprogress' class='col-xs-2'}}
-			<img src="/assets/images/Pokedex.png" class="other-project-image" style="width: 75%; padding-left: 25%"/>
-		{{/link-to}}
-		{{#link-to 'portfolio.inprogress' class='col-xs-2'}}
-			<img src="/assets/images/Twitch.png" class="other-project-image"/>
-		{{/link-to}}
-	</div>
+	{{#link-to 'portfolio.inprogress' class='col-xs-2 col-xs-offset-3'}}
+		<img src="/assets/images/Smite.png" class="other-project-image"/>
+	{{/link-to}}
+	{{#link-to 'portfolio.inprogress' class='col-xs-2'}}
+		<img src="/assets/images/Pokedex.png" class="other-project-image" style="width: 75%; padding-left: 25%"/>
+	{{/link-to}}
+	{{#link-to 'portfolio.inprogress' class='col-xs-2'}}
+		<img src="/assets/images/Twitch.png" class="other-project-image"/>
+	{{/link-to}}
 </div>
 
 {{yield}}
